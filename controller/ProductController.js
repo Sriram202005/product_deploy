@@ -38,6 +38,6 @@ exports.addNewProduct = async (req, res)=>{
         }
     }
     catch(err){
-        res.json({msg:err.msg})
+        res.status(500).json({msg:err.msg})
     }
 }
