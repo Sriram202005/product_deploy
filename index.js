@@ -13,7 +13,6 @@ mongoose.connect('mongodb://localhost:27017/')
 
 app.use("", productRouter);
 
-console.log("Yap");
 
 
 // app.get('/', (req, res)=>{
